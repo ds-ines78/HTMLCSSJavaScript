@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guess the Number</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="numberStyles.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="container">
+        <!-- Text to display on page -->
+        <div class="title">
+            <h1 class="h1">What Number is Max Thinking Of?</h1>
+            <p class="p">Max is thinking of a number between 1 and 100.
+                <br>
+                Can you guess what it is?
+            </p>
+        </div>
+
+        <div class="guessSection">
+            <label for="guess" class="guessLabel">My Guess</label>
+            <br>
+            <!-- The ids here correspond to values in js function -->
+            <input id="guess" type="text" class="guessField" autofocus="autofocus">
+            <button type="button" onclick="myFunction()" class="guessButton">Check It</button>
+            <br>
+            <!-- This will display a message to the user about their guess -->
+            <p id="p01" class="feedback"></p>
+            <br>
+        </div>
+
+        <div class="returnToMain">
+            <a class="linkToMain" href="../index.html">back to main page</a>
+        </div>
+    </div>
+
+
+    <!-- <script src="/guessNumber/numberGen.js" async defer></script> -->
+    <script src="/guessNumber/numberGen.js" async defer></script> -->
+</body>
+
+</html>

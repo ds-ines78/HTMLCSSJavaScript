@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80); /* The image used for background*/
+    background-repeat: repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    font-family: "Syne", sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .image-container {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .id_image {
+    padding: 3px;
+    box-shadow: 15px 15px 25px 0px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 15px 15px 25px 0px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 15px 15px 25px 0px rgba(255, 255, 255, 0.5);
+  }
+  
+  .id_h1 {
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Syne Mono", monospace;
+    font-size: 2.2rem;
+  }
+  
+  .id_description {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .links-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .link {
+    min-width: 50% !important;
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  
+    .link {
+      width: 100%;
+    }
+  }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  .w3-yellow,
+  .w3-hover-purple:hover,
+  .w3-text-black {
+    color: rgba(255, 204, 217) !important;
+    background-color: rgba(255, 255, 179, 0.3) !important;
+  }
+  

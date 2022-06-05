@@ -1,0 +1,90 @@
+/* to reset html margins */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    font-family: "Syne", sans-serif;
+  }
+  
+  body {
+    background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80); /* The image used for background*/
+    background-repeat: repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .title {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .id_h1 {
+    padding: 15px;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Syne Mono", monospace;
+    font-size: 1.8rem;
+  }
+  
+  .id_p {
+    padding-bottom: 10px;
+    margin: 8px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  .art {
+    margin: 1em;
+    height: 350px;
+    width: 350px;
+    border: 3px solid #313030;
+    border-radius: 50%;
+    /* to keep art within the circle */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* add shadow */
+    box-shadow: 10px 10px 24px 0px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 10px 10px 24px 0px rgba(255, 255, 255, 0.5);
+  }
+  
+  .buttonGenerate {
+    padding: 10px 24px;
+    border-radius: 10px;
+    background: #8dc880;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    box-shadow: 10px 10px 24px 0px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 10px 10px 24px 0px rgba(255, 255, 255, 0.5);
+  }
+  
+  .buttonGenerate:hover {
+    background: #76f05b;
+  }
+  
+  .returnToMain {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .linkToMain {
+    font-size: 0.8rem;
+    margin: 5px;
+    padding: 5px;
+  }  

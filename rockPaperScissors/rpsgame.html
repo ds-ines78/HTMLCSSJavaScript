@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock Paper Scissors</title>
+    <meta name="description" content="">
+    <!--to make website responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="rpsstyles.css">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <section class="id_container">
+
+        <!-- Title -->
+        <div class="id_title">
+            <h1 class="id_h1">Rock Paper Scissors</h1>
+        </div>
+        <div class="instructions">
+            <p class="id_p">Is it luck? Is it skill? You get 10 moves to win the game.</p>
+        </div>
+
+        <!-- Score display -->
+        <div class="id_outer">
+            <div class="playerScore">
+                <h2 class="id_h2">You</h2>
+                <p class="p-count">0</p>
+            </div>
+            <div class="id_vs">
+                <p>vs.</p>
+            </div>
+            <div class="computerScore">
+                <h2 class="id_h2">Max</h2>
+                <p class="c-count">0</p>
+            </div>
+        </div>
+
+        <!--Choose move -->
+        <div class="move">
+            <h3 class="id_h3">Choose your move</h3>
+        </div>
+
+        <!-- Button selection -->
+        <div class="buttonselection">
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissor">Scissors</button>
+        </div>
+
+        <!-- Display number of moves left -->
+        <div class="movesleft">
+            <p class="id_p">Moves left: 10</p>
+        </div>
+
+        <!-- Display result of game -->
+        <div class="result"></div>
+
+        <!--Reload the game -->
+        <div class="restartsection">
+            <button class="reload"></button>
+        </div>
+
+        <div class="returnToMain">
+            <a class="linkToMain" href="../index.html">back to main page</a>
+        </div>
+
+    </section>
+    <script src="app.js" async defer></script>
+</body>
+
+</html>
