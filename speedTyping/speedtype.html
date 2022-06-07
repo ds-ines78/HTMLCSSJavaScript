@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Speed Typing</title>
+    <meta name="description" content="">
+    <!--to make website responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="speedtypestyles.css">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <section class="id_container">
+
+        <!-- Title -->
+        <div class="id_title">
+            <h1 class="id_h1">Speed Typing</h1>
+        </div>
+        <div class="instructions">
+            <p class="id_p">Can you type this quote faster than a shooting star?</p>
+        </div>
+
+        <!--Display quote and typing area-->
+        <div class="quote-display" id="quoteDisplay"></div>
+        <textarea id="quoteInput" class="quote-input" autofocus></textarea>
+
+        <!--Show timer -->
+        <div class="timer" id="timer">
+            <p class="id_p"></p>
+        </div>
+
+        <!--Refresh the page -->
+        <div class="refreshsection">
+            <button class="restart" type="submit" onClick="refreshPage()">Restart</button>
+        </div>
+
+        <!--Back to main page -->
+        <div class="returnToMain">
+            <a class="linkToMain" href="../index.html">back to main page</a>
+        </div>
+
+    </section>
+    <script src="speedapp.js" async defer></script>
+</body>
+
+</html>
